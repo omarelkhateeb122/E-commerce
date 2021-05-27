@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Accounts RED Store</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+ <div class="continer">
+   <div class="a">
+
+       <div class="logo">
+         <img src="image/logo.png" width="150px" alt="Oops the image doesn't load This is logo image">  
+       </div>
+
+      <nav id="MenuItems">
+          <ul>
+            <li><a href="index.html">HOMe</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="account.html">Account</a></li>
+            <li><a href="cart.html"><img src="image/cart.png" width="30px" height="30px" alt="Oops the image doesn't load This is cart"></a></li>
+         </ul>
+         
+        
+      </nav>
+  </div>
+
+ </div>
+
+<br>
+<!-----account-page---->
+<table class="account-page">
+    <tr>
+        <td>
+ 
+     <diV class="container">
+        <div class="b">
+            <div class="b3">
+                <img src="image/image1.png" width="65%">
+            </div>
+            </td>
+            <td>
+            <div class="b3">
+                <div class="form-container">
+                   <div class="form-btn">
+                       <span onclick="Login()">Login</span>
+                       <span onclick="Register()">Register</span>
+                       
+                   </div>
+                   <div class="aqw">
+                   <form id="LoginForm">
+                       <input type="text" placeholder="Username">
+                       <input type="password" placeholder="password">
+                       <button type="submit" class="a4"><b>Login</b></button>
+                       <a href="">Forgot password</a>
+                   </form>
+
+
+                   <form id="RegForm">
+                    <input type="text" placeholder="Username">
+                    <input type="email" placeholder="Email">
+                    <input type="password" placeholder="password">
+                    <button type="submit" class="a4"><b>Register</b></button>
+                </form>
+            </div>
+                </div>
+            </div>
+        </div>
+     </diV>
+ 
+</td>
+</tr>
+</table>
+<!--footer-->
+<table class="bg">
+  <tr>
+    <td>
+<div class="footer">
+  <div class="continer">
+    <div class="b">
+      <div class="footer-1">
+         <h3>Download Our App</h3>
+         <p>Download App For Android and Ios Mobile Phone.</p>
+         <div class="app-logo">
+           <img src="image/play-store.png" class="move">
+           <img src="image/app-store.png"  class="move"> 
+         </div>
+      </div>
+    </td>
+      <td>
+
+      <div class="footer-2">
+        <img src="image/logo-white.png">
+        <p>Our Purpose is to Sustainably make the pleasure and benefits of sports accessible to the many.</p>
+     </div>
+    </td>
+     <td class="wh">
+
+       <div class="footer-3">
+         <h3>Useful Links</h3><br>
+         <ul>
+          <li>Coupons</li>
+          <li>Blog Post</li>
+          <li>Return Policy</li>
+          <li>join Affiliate</li>
+         </ul>
+       </div>
+      </td>
+       <td class="wh">
+
+       <div class="footer-4">
+        <h3>Follow Us</h3><br>
+          <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+            <li>YouTube</li>
+          </ul>
+     </div>
+    </div>
+    
+  </div>
+</div>
+
+</td>
+</tr>
+</table>
+<hr>
+    <p class="copy">Copy Right 2021 - BIS Students</p>
+
+    <!--js-->
+    <script>
+        var LoginForm = document.getElementById("LoginForm");
+        var RegForm = document.getElementById("RegForm");
+        
+
+        function Register(){
+            RegForm.style.transform = "translateX(0px)";
+            LoginForm.style.transform = "translateX(0px)";
+            
+        }
+
+        function Login(){
+            RegForm.style.transform = "translateX(300px)";
+            LoginForm.style.transform = "translateX(300px)";
+           
+        }
+    </script>
+
+</body>
+</html>
